@@ -217,9 +217,9 @@ class usrin():
         self.master.destroy()
 
 root = tk.Tk()
-zstack = usrin(root)
+userinput = usrin(root)
 root.mainloop()
 
 
 #Runs FISHtoFigure by redirect
-F2F.run(zstack.input_folder, zstack.hist, zstack.scatter, zstack.Threshold, zstack.expression, zstack.dubposA, zstack.dpAchans, zstack.dpAThreshold, zstack.dubposB, zstack.dpBchans, zstack.dpBThreshold, zstack.chan_headers, zstack.dataset_labels)
+F2F.run(userinput.input_folder, userinput.hist, userinput.scatter, userinput.Threshold, userinput.expression, userinput.dubposA, userinput.dpAchans, userinput.dpAThreshold, userinput.dubposB, userinput.dpBchans, userinput.dpBThreshold, userinput.chan_headers, userinput.dataset_labels)
