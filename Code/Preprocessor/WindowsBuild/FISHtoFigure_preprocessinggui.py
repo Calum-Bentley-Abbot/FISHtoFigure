@@ -6,7 +6,7 @@ GUI for preprocessing script for FISHtoFigure
 
 import tkinter as tk
 
-import FISHtoFigure_v1_preprocessing as F2Fpre
+import FISHtoFigure_preprocessingmain as F2Fpre
 
 class dataconcat():
     def __init__(self, master):   
