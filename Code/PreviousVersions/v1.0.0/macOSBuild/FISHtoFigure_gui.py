@@ -8,7 +8,7 @@ import tkinter as tk
 from tkinter import ttk as ttk
 
 
-import mac_FISHtoFigure_v1_main as F2F
+import FISHtoFigure_main as F2F
 
 
 class usrin():
