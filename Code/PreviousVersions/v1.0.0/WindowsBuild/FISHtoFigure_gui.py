@@ -6,7 +6,7 @@ and the specification of flags and dataset names for plotting
 
 import tkinter as tk
 
-import FISHtoFigure_v1_main as F2F
+import FISHtoFigure_main as F2F
 
 class usrin():
     def __init__(self, master):   
