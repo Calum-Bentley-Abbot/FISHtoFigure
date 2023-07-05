@@ -12,7 +12,7 @@ import time
 
 
 
-import FISHtoFigure_v101_main_mac as F2F
+import FISHtoFigure_main as F2F
 
 class usrin():
     def __init__(self, master):   
