@@ -9,7 +9,7 @@ import tkinter as tk
 from threading import Thread
 import time
 
-import FISHtoFigure_v101_main as F2F
+import FISHtoFigure_main as F2F
 
 class usrin():
     def __init__(self, master):   
