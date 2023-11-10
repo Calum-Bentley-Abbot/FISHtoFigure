@@ -1,5 +1,7 @@
 # FISHtoFigure
-A Python-based platform for the in-depth analysis of smFISH data
+A Python-based platform for the in-depth analysis of smFISH data.
+
+Use the quick-start Tutorial to get started using the FISHtoFigure pipeline, this contains all the information required to conduct analysis. The FISHtoFigure User Information contains more detailed descriptions of how analysis is performed and is more useful for troubleshooting or further code development. 
 
 See the pre-print here for full details: https://www.biorxiv.org/content/10.1101/2023.06.28.546871v1
 
