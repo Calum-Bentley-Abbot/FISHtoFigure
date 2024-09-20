@@ -3,7 +3,7 @@ A Python-based platform for the in-depth analysis of smFISH data.
 
 Use the Quick-start Tutorial to get started using the FISHtoFigure pipeline, this contains all the information required to conduct analysis. The FISHtoFigure User Information contains more detailed descriptions of how analysis is performed and is more useful for troubleshooting or further code development. 
 
-See the pre-print here for full details: https://www.biorxiv.org/content/10.1101/2023.06.28.546871v1
+See the publication here for full details: https://www.nature.com/articles/s41598-024-58641-3
 
 FISHtoFigure enables in-depth probing of the transcriptome in smFISH image data quantified using QuPath. QuPath quantified data can either be directly used as input data for FISHtoFigure or quantified datasets from multiple images can be concatenated using the preprocessing tool before analysis with FISHtoFigure. To facilitate this analysis by all users, regardless of bioinformatic experience levels, FISHtoFigure runs from a dedicated graphical user interface, allowing transcriptome and cell type analysis without custom code or interaction with raw data:
 
@@ -19,6 +19,6 @@ Plot transcript distribution: Scatter plot showing quantified transcriptional sp
 
 Transcript abundance analysis: Differential transcript expression analysis can be conducted between an arbitrary number of quantified datasets. Names of target channels and datasets being compared will be shown on analysis outputs as they appear in the Channel names and Dataset names lists provided by the user within the GUI. RNA target channel names must be defined in the order they appear in quantified QuPath data, and dataset names should named in the order they appear in the input directory. Multi-target abundance analysis: Conducts differential transcript expression analysis on cells expressing a user defined set of targets, enabling analysis of specific cell profiles or cell types in quantified smFISH data. 
 
-Below are examples of transcript abundance analysis for 4 mRNA targets (which can be performed either on a cell-by-cell basis (**Figure A**) or by the cummulative intensity for all cells (**Figure B**). **Figure C** shows a multi-target analysis for two distinct cell types each defined by the expression of two mRNA targets, statistical tests were performed in GraphPad PRISM. For more information see the pre-print here: https://www.biorxiv.org/content/10.1101/2023.06.28.546871v1.
+Below are examples of transcript abundance analysis for 4 mRNA targets (which can be performed either on a cell-by-cell basis (**Figure A**) or by the cummulative intensity for all cells (**Figure B**). **Figure C** shows a multi-target analysis for two distinct cell types each defined by the expression of two mRNA targets, statistical tests were performed in GraphPad PRISM. For more information see the publication here: https://www.nature.com/articles/s41598-024-58641-3.
 
 ![figure3](https://github.com/Calum-Bentley-Abbot/FISHtoFigure/assets/109809682/3144bb44-f809-43e4-b348-6a69110cf1b0)
